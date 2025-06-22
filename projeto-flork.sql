@@ -1,6 +1,7 @@
 -- Criação do banco de dados
-DROP DATABASE IF EXISTS projeto_flork;
+CREATE DATABASE projeto_flork;
 USE projeto_flork;
+
 
 -- Tabela: Usuários
 CREATE TABLE users (
@@ -12,6 +13,9 @@ CREATE TABLE users (
     bio TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+-- Teste de alteração para commit
+
 
 -- Tabela: Tokens de autenticação
 CREATE TABLE auth_tokens (
