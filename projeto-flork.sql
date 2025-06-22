@@ -1,5 +1,5 @@
 -- Criação do banco de dados
-CREATE DATABASE IF NOT EXISTS projeto_flork;
+DROP DATABASE IF EXISTS projeto_flork;
 USE projeto_flork;
 
 -- Tabela: Usuários
